@@ -1,8 +1,7 @@
 # ML-Cyber-Security-Lab3 report
 (including how to run the code)
 
-A repaired goodnet using the pruning defense
-
+all code can run in colab, including load data and load model. it is very convenient and easy.
 ## Load Data and Test Model
 We use four datasets to do this lab. They are test.h5, valid.h5, bd_test.h5, bd_valid.h5. you can find the link in the data file. Also, we have a backdoored neural network classifier with N classes. And using 'evl' function, we can get clean classification accuracy and the attack success rate of the base network on valid.h5 and bd_valid.h5.
 ## Prune Model
