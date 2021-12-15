@@ -1,4 +1,6 @@
 # ML-Cyber-Security-Lab3 report
+(including how to run the code)
+
 A repaired goodnet using the pruning defense
 
 ## Load Data and Test Model
