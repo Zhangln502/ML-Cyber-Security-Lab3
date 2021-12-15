@@ -16,5 +16,5 @@ data) as a function of the fraction of channels pruned.
 ![image](https://user-images.githubusercontent.com/91434745/146216993-3f885e32-c120-4abc-8bb4-fd68ff81bbf3.png)
 ## Conclusion
 From the first beginning, before the pruning defense, the accuracy is 98.65 and the Attack Success Rate is 100.0. And from the Evaluation part, we can see that if we prune the channel a little bit, The effect is not very obvious. As the number of channel pruned increase, the attack success rate decrease. And the attack success rate decrease a lot when we prune a lot of channels. However, the accuracy decrease a lot, too. Also, from the plot above, we can see that there is no big 'green space' like the space in the following picture. That is, backdoor diasabled with compromising clean set accuracy. So I think the pruning defense actually doen not works for this model. And this may because the attacker(this bd_model) adapts to this defense, that is, adaptive attacker introduces sacrificial neurons in the network to diable pruning defense. And that's why we didn't see obvious effect of our defense methods.
-![image](https://user-images.githubusercontent.com/91434745/146217034-0adbadbf-b6a7-48e7-95bb-705007728389.png)
+
 ![image](https://user-images.githubusercontent.com/91434745/146217049-c2e6ccdf-b39f-4c3e-83a4-bcaa7642a633.png)
